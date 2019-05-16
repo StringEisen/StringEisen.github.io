@@ -77,5 +77,5 @@ theme: jekyll-theme-cayman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: https://github.com/StringEisen/StringEisen.github.io.git
+deploy:
   type: git
