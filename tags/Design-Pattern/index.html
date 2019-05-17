@@ -100,7 +100,7 @@
 <meta name="keywords" content="C, Java, Web">
 <meta property="og:type" content="website">
 <meta property="og:title" content="爱喝酸奶的99的blog">
-<meta property="og:url" content="https://stringeisen.github.io/index.html">
+<meta property="og:url" content="https://stringeisen.github.io/tags/Design-Pattern/index.html">
 <meta property="og:site_name" content="爱喝酸奶的99的blog">
 <meta property="og:description" content="personal blog born on May 16th 2019">
 <meta property="og:locale" content="zh-CN">
@@ -114,7 +114,7 @@
 
   
   
-  <link rel="canonical" href="https://stringeisen.github.io/">
+  <link rel="canonical" href="https://stringeisen.github.io/tags/Design-Pattern/">
 
 
 
@@ -124,7 +124,7 @@
   };
 </script>
 
-  <title>爱喝酸奶的99的blog</title>
+  <title>标签: Design Pattern | 爱喝酸奶的99的blog</title>
   
 
 
@@ -172,8 +172,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -215,7 +214,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -254,6 +253,19 @@
   
     
 
+    
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
   
 
   
@@ -277,165 +289,54 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
-    
+
+  
+  
+  
+  <div class="post-block tag">
+
+    <div id="posts" class="posts-collapse">
+      <div class="collection-title">
+        <h1>Design Pattern<small>标签</small>
+        </h1>
+      </div>
+
       
-
-  
-
-  
-  
-  
-
-  
+        
 
   <article class="post post-type-设计模式" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://stringeisen.github.io/2019/05/17/Java多线程设计模式-Future-Pattern/">
+    <header class="post-header">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="爱喝酸奶的99">
-      <meta itemprop="description" content="personal blog born on May 16th 2019">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="爱喝酸奶的99的blog">
-    </span>
-
-    
-      <header class="post-header">
-
+      <h2 class="post-title">
         
+          <a class="post-title-link" href="/2019/05/17/Java多线程设计模式-Future-Pattern/" itemprop="url">
+            
+              <span itemprop="name">Java多线程设计模式-Worker Thread</span>
+            
+          </a>
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/05/17/Java多线程设计模式-Future-Pattern/" class="post-title-link" itemprop="url">Java多线程设计模式-Worker Thread</a>
-              
-            
-          </h1>
-        
+      </h2>
 
-        <div class="post-meta">
-          <span class="post-time">
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2019-05-17T09:55:29+08:00" content="2019-05-17">
+          05-17
+        </time>
+      </div>
 
-            
-            
-            
+    </header>
+  </article>
 
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-05-17 09:55:29 / 修改时间：10:37:59" itemprop="dateCreated datePublished" datetime="2019-05-17T09:55:29+08:00">2019-05-17</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-
-          
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
 
       
-      
+    </div>
 
-      
-        
-          <p>参考《图解Java多线程设计模式》一书，总结了该设计模式的特点和应用场景等。</p>
-<h2 id="Worker-Thread-模式"><a href="#Worker-Thread-模式" class="headerlink" title="Worker Thread 模式"></a>Worker Thread 模式</h2><h3 id="模式中的角色："><a href="#模式中的角色：" class="headerlink" title="模式中的角色："></a>模式中的角色：</h3><ul>
-<li>Client：发出请求的一方，向channel put request</li>
-<li>Channel：请求的中继，提供同步的put/take接口</li>
-<li>Worker：获取并处理请求的一方，从channel take request</li>
-<li>Request：请求本身，提供执行的具体实现
-          <!--noindex-->
-          
-            <div class="post-button text-center">
-              <a class="btn" href="/2019/05/17/Java多线程设计模式-Future-Pattern/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          
-          <!--/noindex-->
-        
-      
-    </li></ul></div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
   
   
   
-  </article>
-
-
-    
-  </section>
 
   
+
 
 
           </div>
