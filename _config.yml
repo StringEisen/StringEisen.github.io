@@ -3,19 +3,24 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: StringEisen's blog
+title: 爱喝酸奶的99的blog
 subtitle: powered by Hexo
-description: personal blog born on May 16th 2019 
+description: 欢迎来到爱喝酸奶的99的小站(^v^)/~
 keywords: C, Java, Web
-author: John Doe (Hexo); Ellie (StringEisen)
-language: Chinese (Simplified)
+author: 爱喝酸奶的99
+language: zh-CN # change zh-Hans to zh-CN to fit next theme
 timezone:
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: "https://stringeisen.github.io/"
+url: https://stringeisen.github.io/
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title.html
 permalink_defaults:
 
 # Directory
@@ -73,9 +78,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: jekyll-theme-cayman
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-##deploy:
-##  type: git
+deploy:
+  type: git
+  repo: https://github.com/StringEisen/StringEisen.github.io.git
+  branch: master
